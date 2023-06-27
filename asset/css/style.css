@@ -11,3 +11,151 @@ body {
    font-family: 'Sora', sans-serif;
    height: 5000px;
 }
+
+
+
+/* Common */
+.container {
+   width: 1170px;
+   min-width: calc(100% -48px);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.btn {
+   border-radius: 30px;
+   background: #2E80CE;
+   color: #FFF;
+   text-align: center;
+   font-size: 1.6rem;
+   line-height: 1.75;
+}
+.btn:hover {
+   opacity: 0.9;
+}
+
+a {
+   text-decoration: none;
+}
+
+.desc {
+   color: #575F66;
+   font-weight: 300;
+}
+
+/* Header */
+.header {
+   padding-top: 30px;
+   min-height: 100vh;
+   background-color: #10375C;
+}
+
+.header-top {
+   display: flex;
+   align-items: center;
+   padding: 2px 0px;
+   position: sticky;
+}
+
+.navbar ul {
+   display: flex;
+}
+
+.navbar ul a {
+   padding: 8px 12px;
+   color: #C9D2DA;
+   text-align: center;
+   font-size: 1.6rem;
+   font-weight: 300;
+   margin-left: 18px;
+}
+
+.navbar ul a:hover {
+   text-shadow: 0.5px 0 0 currentColor;
+   color: white;
+}
+
+.navbar .dot::before {
+   position: relative;
+   left: 25px;
+   top: -2px;
+   content: "";
+   display: inline-block;
+   width: 6px;
+   height: 6px;
+   border-radius: 6px;
+   background: #FFF;
+}
+
+.navbar {
+   margin-left: 278px;
+}
+
+.header .action {
+   margin-left: 210px;
+}
+
+.login {
+   color: #C9D2DA;
+   text-align: right;
+   font-size: 1.6rem;
+   font-weight: 300;
+   line-height: 28px;
+
+}
+
+.action .btn {
+   padding: 8px 20px;
+   margin-left: 28px;
+}
+
+/* Hero */
+.header .hero {
+   display: flex;
+   margin-top: 76px;
+}
+
+.hero__content {
+   width: 44%;
+}
+
+.hero__media {
+   flex-grow: 1;
+   margin-left: 113px;
+   position: relative;
+}
+
+.hero-img:nth-child(2) {
+   position: absolute;
+   left: 330px;
+   top: 65px;
+}
+
+.hero__heading {
+   color: #FFF;
+   font-size: 7rem;
+   font-weight: 600;
+   line-height: 1.14;
+   letter-spacing: -1.4px;
+   margin-top: 60px;
+}
+
+.hero__desc {
+   margin-top: 22px;
+   color: #C9D2DA;
+   font-size: 1.8rem;
+   line-height: 1.67;
+}
+
+.hero-row .btn {
+   display: inline-block;
+   margin-top: 38px;
+   padding: 15px 46px;
+}
+
+.hero__phone {
+   color: #FFF;
+   font-size: 1.8rem;
+   line-height: 1.67;
+   margin-left: 38px;
+}
