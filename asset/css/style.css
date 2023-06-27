@@ -30,6 +30,7 @@ body {
    font-size: 1.6rem;
    line-height: 1.75;
 }
+
 .btn:hover {
    opacity: 0.9;
 }
@@ -158,4 +159,66 @@ a {
    font-size: 1.8rem;
    line-height: 1.67;
    margin-left: 38px;
+}
+
+/* Service */
+.service {
+   margin-top: 170px;
+}
+
+.service .title {
+   color: #10375C;
+   text-align: center;
+   font-size: 5rem;
+   font-weight: 600;
+   line-height: 1.2;
+   letter-spacing: -1px;
+}
+
+.service .desc {
+   margin-top: 18px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 468px;
+   text-align: center;
+   font-size: 1.8;
+   line-height: 1.67;
+}
+
+.service .content {
+   margin-top: 70px;
+   display: flex;
+   justify-content: space-between;
+}
+.service .info {
+   margin-top: 35px;
+}
+.service .block {
+   display: flex;
+   padding: 21px 18px 20px 22px;
+   border-radius: 10px;
+   align-items: center;
+}
+
+.service .block:hover {
+   box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service .sub-icon {
+   color: #10375C;
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+.service .block .desc {
+   margin-top: 8px;
+   width: 351px;
+   text-align: left;
+   font-size: 1.6rem;
+   line-height: 1.75;
+}
+.service .btn {
+   display: inline-block;
+   margin-top: 55px;
+   padding: 15px 49px;
 }
