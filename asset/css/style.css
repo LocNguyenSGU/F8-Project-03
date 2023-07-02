@@ -9,7 +9,6 @@ html {
 body {
    font-size: 1.6rem;
    font-family: 'Sora', sans-serif;
-   height: 7000px;
 }
 
 
@@ -576,6 +575,7 @@ a {
 }
 
 .separate {
+   display: inline-block;
    margin-top: 18px;
    width: 136px;
    height: 2px;
@@ -587,6 +587,7 @@ a {
    margin-top: 18px;
    text-align: center;
 }
+
 .welcome .contact {
    display: block;
    margin-left: auto;
@@ -597,10 +598,118 @@ a {
    text-align: center;
    font-weight: 300;
 }
+
 .welcome .btn {
    margin-top: 38px;
    display: inline-block;
    margin-left: auto;
    margin-right: auto;
    padding: 15px 40px;
+}
+
+/* footer */
+.footer {
+   background-color: #10375C;
+   margin-top: 170px;
+}
+
+.footer .container {
+   padding-top: 100px;
+   padding-bottom: 42px;
+}
+
+.footer .content {
+   display: flex;
+   gap: 78px;
+}
+
+.footer .desc {
+   width: 336px;
+   font-family: Open Sans;
+   margin-top: 21px;
+   color: #A9B3BB;
+   font-size: 1.6rem;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.footer .title {
+   color: #FFF;
+   font-size: 1.6rem;
+   font-family: Open Sans;
+   font-weight: 600;
+   line-height: 28px;
+   padding-bottom: 10px;
+}
+
+.footer_list a {
+   width: 134px;
+   display: inline-block;
+   margin-top: 10px;
+   color: #A9B3BB;
+   font-size: 1.4rem;
+   font-family: Open Sans;
+   font-weight: 400;
+}
+
+.footer .title_2 {
+   margin-top: 28px;
+}
+
+.title_last {
+   margin-top: 28px;
+}
+
+.desc_last {
+   width: 273px;
+   font-family: Open Sans;
+   color: #A9B3BB;
+   font-size: 1.6rem;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.footer_action {
+   display: flex;
+   margin-top: 10px;
+   align-items: center;
+}
+
+.email {
+   width: 212px;
+   height: 46px;
+   border-radius: 4px;
+   border: 1px solid #406181;
+   outline: none;
+   background-color: transparent;
+}
+
+.email::placeholder {
+   padding: 10px 10px;
+   color: #9CA8B1;
+   font-size: 1.4rem;
+   font-family: Open Sans;
+   font-weight: 400;
+}
+
+.footer .btn {
+   padding: 10px 21px;
+   border-radius: 4px;
+   margin-left: 12px;
+}
+
+.footer .separate {
+   margin-top: 28px;
+   width: 1170px;
+   height: 1px;
+   background: #406181;
+}
+.copyright {
+   margin-top: 28px;
+   font-family: Open Sans;
+   color: #A9B3BB;
+   font-size: 1.4rem;
+   font-weight: 400;
+   line-height: 28px;
+   text-align: center;
 }
