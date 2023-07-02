@@ -9,7 +9,7 @@ html {
 body {
    font-size: 1.6rem;
    font-family: 'Sora', sans-serif;
-   height: 5000px;
+   height: 7000px;
 }
 
 
@@ -459,8 +459,148 @@ a {
    font-size: 1.8rem;
    line-height: 1.67;
 }
+
 .install .row {
    display: flex;
    margin-top: 38px;
    gap: 28px;
+}
+
+/* news */
+.news .container {
+   display: flex;
+   margin-top: 170px;
+   gap: 130px;
+}
+
+.news-list {
+   display: flex;
+   gap: 30px;
+}
+
+
+.news-list .image {
+   width: 270px;
+   height: 172px;
+   object-fit: cover;
+   border-radius: 12px 12px 0 0;
+}
+
+.news-list .info {
+   width: 226px;
+}
+
+.news .title {
+   color: #10375C;
+   font-size: 5rem;
+   font-weight: 600;
+   line-height: 1.2;
+   letter-spacing: -1px;
+   margin-top: 76px;
+   width: 470px;
+}
+
+.news-more {
+   margin-top: 28px;
+   color: #10375C;
+   font-size: 1.8rem;
+   font-weight: 600;
+   text-decoration-line: underline;
+   display: block;
+}
+
+.news .action-btn {
+   margin-top: 28px;
+}
+
+.news-list .list-item {
+   border-radius: 12px;
+   border: 1px solid #E8EBEE;
+   background: #FFF;
+}
+
+.news-list .list-item:hover {
+   box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.1);
+   transition: 0.05s;
+}
+
+.news-list .info {
+   padding: 18px 22px 21px;
+}
+
+.list-item .sub-image {
+   width: 224px;
+   color: #10375C;
+   font-size: 1.6rem;
+   font-weight: 600;
+   line-height: 26px;
+}
+
+.list-item .desc {
+   margin-top: 10px;
+   color: #575F66;
+   font-size: 14px;
+   font-family: Sora;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 24px;
+   width: 226px;
+}
+
+.list-item .link {
+   display: inline-block;
+   margin-top: 12px;
+   color: #2E80CE;
+   font-weight: 400;
+}
+
+/* welcome */
+.welcome {
+   margin-top: 170px;
+}
+
+.welcome .container {
+   text-align: center;
+   background: #F6FBFF;
+   padding-bottom: 100px;
+}
+
+.welcome .title {
+   padding-top: 100px;
+   color: #10375C;
+   text-align: center;
+   font-size: 5rem;
+   font-weight: 600;
+   line-height: 60px;
+   letter-spacing: -1px;
+}
+
+.separate {
+   margin-top: 18px;
+   width: 136px;
+   height: 2px;
+   background: #2E80CE;
+}
+
+.welcome .desc {
+   font-size: 1.6rem;
+   margin-top: 18px;
+   text-align: center;
+}
+.welcome .contact {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 1.6rem;
+   margin-top: 18px;
+   color: #575F66;
+   text-align: center;
+   font-weight: 300;
+}
+.welcome .btn {
+   margin-top: 38px;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 15px 40px;
 }
